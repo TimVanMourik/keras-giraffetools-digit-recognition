@@ -1,0 +1,4 @@
+gitpython
+keras
+matplotlib
+numpy

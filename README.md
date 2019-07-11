@@ -6,7 +6,11 @@ https://giraffe.tools/porcupine/TimVanMourik/keras-giraffetools-digit-recognitio
 
 The business logic for loading data and feeding it to the model is included in main Python file `digit_recognition.py`.
 
-A Jupyter notebook is in the making.
+For easy inspection, there is also a Jupyter notebook (`digit_recognition.ipynb`) that is equivalent but also shows some output here and there. Like an input image:
+![](./img/digit.png)
+
+That is classified and decided to be an 8:
+![](./img/prediction.png)
 
 
 ### Credits
