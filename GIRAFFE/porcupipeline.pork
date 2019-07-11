@@ -35,6 +35,7 @@
   ],
   "nodes": [
     {
+      "toolbox": "Nipype",
       "name": "conv2_d",
       "class": "Conv2D",
       "category": "convolutional",
@@ -415,6 +416,7 @@
       "colour": "#93aa42"
     },
     {
+      "toolbox": "Nipype",
       "name": "max_pooling2_d",
       "class": "MaxPooling2D",
       "category": "pooling",
@@ -553,6 +555,7 @@
       "colour": "#a59941"
     },
     {
+      "toolbox": "Nipype",
       "name": "conv2_d_1",
       "class": "Conv2D",
       "category": "convolutional",
@@ -933,6 +936,7 @@
       "colour": "#93aa42"
     },
     {
+      "toolbox": "Nipype",
       "name": "max_pooling2_d_1",
       "class": "MaxPooling2D",
       "category": "pooling",
@@ -1071,6 +1075,7 @@
       "colour": "#a59941"
     },
     {
+      "toolbox": "Nipype",
       "name": "dropout",
       "class": "Dropout",
       "category": "core",
@@ -1187,6 +1192,7 @@
       "colour": "#80b649"
     },
     {
+      "toolbox": "Nipype",
       "name": "flatten",
       "class": "Flatten",
       "category": "core",
@@ -1259,6 +1265,7 @@
       "colour": "#80b649"
     },
     {
+      "toolbox": "Nipype",
       "name": "dense",
       "class": "Dense",
       "category": "core",
@@ -1529,6 +1536,7 @@
       "colour": "#80b649"
     },
     {
+      "toolbox": "Nipype",
       "name": "dense_1",
       "class": "Dense",
       "category": "core",
@@ -1799,6 +1807,7 @@
       "colour": "#80b649"
     },
     {
+      "toolbox": "Nipype",
       "name": "dense_2",
       "class": "Dense",
       "category": "core",
@@ -1835,7 +1844,7 @@
           "name": "units",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "10",
           "visible": true,
           "iterator": false
         },

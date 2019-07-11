@@ -74,7 +74,7 @@ def NeuralNet(shape):
     ))
 
     model.add(Dense(
-      #mandatory argument,  # units,
+      10,  # units,
       activation='softmax',
       use_bias=True,
       kernel_initializer='glorot_uniform',
