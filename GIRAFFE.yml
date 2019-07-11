@@ -4,3 +4,4 @@ tools:
     files:
       - GIRAFFE/porcupipeline.pork
     nodes:
+      - https://raw.githubusercontent.com/TimVanMourik/keras/giraffe-tools/keras_nodes.json
