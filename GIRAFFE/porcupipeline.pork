@@ -71,7 +71,7 @@
           "name": "filters",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "30",
           "visible": true,
           "iterator": false
         },
@@ -93,7 +93,7 @@
           "name": "kernel_size",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "(5,5)",
           "visible": true,
           "iterator": false
         },
@@ -203,7 +203,7 @@
           "name": "activation",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "'relu'",
           "visible": false,
           "iterator": false
         },
@@ -589,7 +589,7 @@
           "name": "filters",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "15",
           "visible": true,
           "iterator": false
         },
@@ -611,7 +611,7 @@
           "name": "kernel_size",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "(3,3)",
           "visible": true,
           "iterator": false
         },
@@ -721,7 +721,7 @@
           "name": "activation",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "'relu'",
           "visible": false,
           "iterator": false
         },
@@ -1107,7 +1107,7 @@
           "name": "rate",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "0.2",
           "visible": true,
           "iterator": false
         },
@@ -1295,7 +1295,7 @@
           "name": "units",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "128",
           "visible": true,
           "iterator": false
         },
@@ -1317,7 +1317,7 @@
           "name": "activation",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "'relu'",
           "visible": false,
           "iterator": false
         },
@@ -1565,7 +1565,7 @@
           "name": "units",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "50",
           "visible": true,
           "iterator": false
         },
@@ -1587,7 +1587,7 @@
           "name": "activation",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "'relu'",
           "visible": false,
           "iterator": false
         },
@@ -1857,7 +1857,7 @@
           "name": "activation",
           "output": false,
           "outputPort": false,
-          "value": "",
+          "value": "'softmax'",
           "visible": false,
           "iterator": false
         },

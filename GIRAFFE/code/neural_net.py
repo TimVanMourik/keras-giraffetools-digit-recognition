@@ -16,11 +16,12 @@ def NeuralNet(shape):
     model = Sequential()
 
     model.add(Conv2D(
-      #mandatory argument,  # filters
-      #mandatory argument,  # kernel_size,
+      30,  # filters
+      (5,5),  # kernel_size,
       strides=(1, 1),
       padding='valid',
       dilation_rate=(1, 1),
+      activation='relu',
       use_bias=True,
       kernel_initializer='glorot_uniform',
       bias_initializer='zeros'
@@ -32,11 +33,12 @@ def NeuralNet(shape):
     ))
 
     model.add(Conv2D(
-      #mandatory argument,  # filters
-      #mandatory argument,  # kernel_size,
+      15,  # filters
+      (3,3),  # kernel_size,
       strides=(1, 1),
       padding='valid',
       dilation_rate=(1, 1),
+      activation='relu',
       use_bias=True,
       kernel_initializer='glorot_uniform',
       bias_initializer='zeros'
@@ -48,7 +50,7 @@ def NeuralNet(shape):
     ))
 
     model.add(Dropout(
-      #mandatory argument,  # rate
+      0.2,  # rate
     ))
 
     model.add(Flatten(
@@ -56,7 +58,16 @@ def NeuralNet(shape):
     ))
 
     model.add(Dense(
-      #mandatory argument,  # units,
+      128,  # units,
+      activation='relu',
+      use_bias=True,
+      kernel_initializer='glorot_uniform',
+      bias_initializer='zeros'
+    ))
+
+    model.add(Dense(
+      50,  # units,
+      activation='relu',
       use_bias=True,
       kernel_initializer='glorot_uniform',
       bias_initializer='zeros'
@@ -64,13 +75,7 @@ def NeuralNet(shape):
 
     model.add(Dense(
       #mandatory argument,  # units,
-      use_bias=True,
-      kernel_initializer='glorot_uniform',
-      bias_initializer='zeros'
-    ))
-
-    model.add(Dense(
-      #mandatory argument,  # units,
+      activation='softmax',
       use_bias=True,
       kernel_initializer='glorot_uniform',
       bias_initializer='zeros'
