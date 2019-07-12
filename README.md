@@ -1,6 +1,5 @@
 # Digit Recognition with Keras & GiraffeTools
-A machine learning network for digit recognition in GiraffeTools. The neural network is visualised here:
-
+A machine learning network for digit recognition in GiraffeTools. The neural network is visualised, modified, and saved via the link here:
 https://giraffe.tools/porcupine/TimVanMourik/keras-giraffetools-digit-recognition
 ![](./img/neural_net.jpg)
 
