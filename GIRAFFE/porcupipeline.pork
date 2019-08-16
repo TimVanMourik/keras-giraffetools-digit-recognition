@@ -2080,8 +2080,7 @@
   "stickies": [],
   "ui": {
     "showToolboxes": [
-      "Keras",
-      "Nipype"
+      "Keras"
     ]
   },
   "version": "v1"
