@@ -2078,5 +2078,11 @@
     }
   ],
   "stickies": [],
+  "ui": {
+    "showToolboxes": [
+      "Keras",
+      "Nipype"
+    ]
+  },
   "version": "v1"
 }
