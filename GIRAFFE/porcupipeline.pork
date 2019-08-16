@@ -1,44 +1,51 @@
 {
   "links": [
     {
+      "id": "43c93326-9523-4f92-970b-6072ba0d3c5b",
       "from": "c09e1745-84d1-4f82-b801-156e9cd3e79e",
       "to": "a4bdf5f0-a428-4ea5-881a-718846fcfea4"
     },
     {
+      "id": "2329ea1d-0e9b-4e36-ba86-95776837fc0a",
       "from": "e4fe04c0-19de-4d22-8d6b-2b2243eef5d8",
       "to": "308353dd-70f6-49f8-bf08-e89e0c1ade12"
     },
     {
+      "id": "662d3fde-c801-45ba-8284-8f96e4f5a34f",
       "from": "f50aecf9-abf6-4a85-a37a-a22c9d982dbd",
       "to": "5e18b952-8991-49fd-91c1-7cbd7971660c"
     },
     {
+      "id": "97ea7218-13f6-4056-8cf9-f7665436e4f2",
       "from": "9d6e252c-6e1c-459b-a461-5025116de190",
       "to": "5c809c6f-e828-4638-a6c9-2958191b0aca"
     },
     {
+      "id": "64154783-b7b8-4890-8038-95b485b938c6",
       "from": "2a9293c9-00ad-49a9-8359-08831c494e95",
       "to": "a28804c2-f935-427a-a1c8-8ed954f0d80c"
     },
     {
+      "id": "b06838d3-867a-448b-b9f4-7a78b6f2982a",
       "from": "2ee65777-75a6-494f-8871-ef27aad39ff9",
       "to": "aadb7d98-461b-441f-803d-23af01cffa97"
     },
     {
+      "id": "f96a9682-4ac2-4223-acb5-f25faa729bf9",
       "from": "ab8d8184-05b1-446e-9180-4872b49d6775",
       "to": "826be4df-5ecc-46bd-b132-c4f148ea7c7f"
     },
     {
+      "id": "000e65c7-d879-478d-a580-c7deff6eb1a2",
       "from": "b3821105-a78e-4fbe-987b-f6e9e7aedd25",
       "to": "180f3ac2-34a6-4f71-bf9a-2268ef79d9e7"
     }
   ],
   "nodes": [
     {
-      "toolbox": "Nipype",
+      "id": "96ab31e4-d3f2-4945-a580-7095c56d4825",
       "name": "conv2_d",
       "class": "Conv2D",
-      "category": "convolutional",
       "ports": [
         {
           "base": "",
@@ -416,10 +423,9 @@
       "colour": "#93aa42"
     },
     {
-      "toolbox": "Nipype",
+      "id": "28b6af7f-6616-4aae-a920-2d684f674437",
       "name": "max_pooling2_d",
       "class": "MaxPooling2D",
-      "category": "pooling",
       "ports": [
         {
           "base": "",
@@ -555,10 +561,9 @@
       "colour": "#a59941"
     },
     {
-      "toolbox": "Nipype",
+      "id": "1982f777-5e85-4bda-a724-347bf6fd5d6c",
       "name": "conv2_d_1",
       "class": "Conv2D",
-      "category": "convolutional",
       "ports": [
         {
           "base": "",
@@ -936,10 +941,9 @@
       "colour": "#93aa42"
     },
     {
-      "toolbox": "Nipype",
+      "id": "1382befd-b521-4f0f-8fd2-0b7551936093",
       "name": "max_pooling2_d_1",
       "class": "MaxPooling2D",
-      "category": "pooling",
       "ports": [
         {
           "base": "",
@@ -1075,10 +1079,9 @@
       "colour": "#a59941"
     },
     {
-      "toolbox": "Nipype",
+      "id": "937b605e-0039-4dba-baeb-c05915870ba4",
       "name": "dropout",
       "class": "Dropout",
-      "category": "core",
       "ports": [
         {
           "base": "",
@@ -1192,10 +1195,9 @@
       "colour": "#80b649"
     },
     {
-      "toolbox": "Nipype",
+      "id": "45397f02-3311-4d38-84a2-a86b0c541aec",
       "name": "flatten",
       "class": "Flatten",
-      "category": "core",
       "ports": [
         {
           "base": "",
@@ -1265,10 +1267,9 @@
       "colour": "#80b649"
     },
     {
-      "toolbox": "Nipype",
+      "id": "96ac06ef-ead5-439f-bf25-96fceb918898",
       "name": "dense",
       "class": "Dense",
-      "category": "core",
       "ports": [
         {
           "base": "",
@@ -1536,10 +1537,9 @@
       "colour": "#80b649"
     },
     {
-      "toolbox": "Nipype",
+      "id": "eb4faa0f-6a0b-46d4-a74c-323b920c01d3",
       "name": "dense_1",
       "class": "Dense",
-      "category": "core",
       "ports": [
         {
           "base": "",
@@ -1807,10 +1807,9 @@
       "colour": "#80b649"
     },
     {
-      "toolbox": "Nipype",
+      "id": "14204110-eb72-40f2-9833-a4f867a179a7",
       "name": "dense_2",
       "class": "Dense",
-      "category": "core",
       "ports": [
         {
           "base": "",
@@ -2078,5 +2077,6 @@
       "colour": "#80b649"
     }
   ],
+  "stickies": [],
   "version": "v1"
 }

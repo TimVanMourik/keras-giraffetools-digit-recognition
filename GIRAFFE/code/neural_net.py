@@ -24,7 +24,8 @@ def NeuralNet(shape):
       activation='relu',
       use_bias=True,
       kernel_initializer='glorot_uniform',
-      bias_initializer='zeros'
+      bias_initializer='zeros',
+      input_shape=shape
     ))
 
     model.add(MaxPooling2D(
