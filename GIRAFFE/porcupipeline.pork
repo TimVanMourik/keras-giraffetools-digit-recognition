@@ -44,7 +44,7 @@
   "nodes": [
     {
       "id": "96ab31e4-d3f2-4945-a580-7095c56d4825",
-      "name": "conv2d_1",
+      "name": "conv2d",
       "class": "Conv2D",
       "ports": [
         {
@@ -407,8 +407,8 @@
         }
       ],
       "position": [
-        136.98843383789062,
-        214.85696411132812
+        197.4631805419922,
+        197.35110473632812
       ],
       "code": [
         {
@@ -424,7 +424,7 @@
     },
     {
       "id": "28b6af7f-6616-4aae-a920-2d684f674437",
-      "name": "maxpooling2d_1",
+      "name": "maxpooling2d",
       "class": "MaxPooling2D",
       "ports": [
         {
@@ -545,8 +545,8 @@
         }
       ],
       "position": [
-        275.5071716308594,
-        269.59210205078125
+        343.9390869140625,
+        290.28082275390625
       ],
       "code": [
         {
@@ -562,7 +562,7 @@
     },
     {
       "id": "1982f777-5e85-4bda-a724-347bf6fd5d6c",
-      "name": "conv2d_2",
+      "name": "conv2d_1",
       "class": "Conv2D",
       "ports": [
         {
@@ -942,7 +942,7 @@
     },
     {
       "id": "1382befd-b521-4f0f-8fd2-0b7551936093",
-      "name": "maxpooling2d_2",
+      "name": "maxpooling2d_1",
       "class": "MaxPooling2D",
       "ports": [
         {
@@ -2099,6 +2099,7 @@
   ],
   "ui": {
     "showToolboxes": [
+      "Keras",
       "Keras"
     ]
   },
