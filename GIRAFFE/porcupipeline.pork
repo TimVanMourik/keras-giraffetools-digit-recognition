@@ -44,7 +44,7 @@
   "nodes": [
     {
       "id": "96ab31e4-d3f2-4945-a580-7095c56d4825",
-      "name": "conv2_d",
+      "name": "conv2d_1",
       "class": "Conv2D",
       "ports": [
         {
@@ -407,8 +407,8 @@
         }
       ],
       "position": [
-        163.1875,
-        226.765625
+        136.98843383789062,
+        214.85696411132812
       ],
       "code": [
         {
@@ -424,7 +424,7 @@
     },
     {
       "id": "28b6af7f-6616-4aae-a920-2d684f674437",
-      "name": "max_pooling2_d",
+      "name": "maxpooling2d_1",
       "class": "MaxPooling2D",
       "ports": [
         {
@@ -545,8 +545,8 @@
         }
       ],
       "position": [
-        317.1875,
-        289.8368225097656
+        275.5071716308594,
+        269.59210205078125
       ],
       "code": [
         {
@@ -562,7 +562,7 @@
     },
     {
       "id": "1982f777-5e85-4bda-a724-347bf6fd5d6c",
-      "name": "conv2_d_1",
+      "name": "conv2d_2",
       "class": "Conv2D",
       "ports": [
         {
@@ -925,8 +925,8 @@
         }
       ],
       "position": [
-        541.2230834960938,
-        388.47113037109375
+        568.613037109375,
+        392.0437316894531
       ],
       "code": [
         {
@@ -942,7 +942,7 @@
     },
     {
       "id": "1382befd-b521-4f0f-8fd2-0b7551936093",
-      "name": "max_pooling2_d_1",
+      "name": "maxpooling2d_2",
       "class": "MaxPooling2D",
       "ports": [
         {
@@ -1063,8 +1063,8 @@
         }
       ],
       "position": [
-        708.8930053710938,
-        435.2381286621094
+        707.7020874023438,
+        444.7650451660156
       ],
       "code": [
         {
@@ -2077,7 +2077,26 @@
       "colour": "#80b649"
     }
   ],
-  "stickies": [],
+  "stickies": [
+    {
+      "id": "395f585c-f137-4b9f-ab7d-c8a8a45555df",
+      "title": "My post-it",
+      "content": "Repeating Conv2D  and  MaxPooling2D twice",
+      "position": [
+        458.2077865600586,
+        111.04096984863281
+      ]
+    },
+    {
+      "id": "2ad23264-b268-46f8-8390-947d2dc57419",
+      "title": "Dense",
+      "content": "[Placeholder post-it]: Some really dense layers",
+      "position": [
+        1350.9232482910156,
+        513.3050842285156
+      ]
+    }
+  ],
   "ui": {
     "showToolboxes": [
       "Keras"
